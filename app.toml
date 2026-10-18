@@ -1,0 +1,85 @@
+[app]
+name = "CAGames"
+slug = "cagames"
+bundle_id = "com.fathforce.cagames"
+version = "0.1.0"
+accent_color = "green"
+error_prefix = "GAMES"
+description = "STEAM Coding & English learning games platform for all levels, TK to University"
+
+[window]
+title = "CAGames"
+width = 1280
+height = 850
+min_width = 900
+min_height = 650
+
+[security]
+master_password_required = false
+profile_pin_enabled = false
+
+[modules]
+sample_slice_enabled = false
+ai_assistant_enabled = true
+pro_licensing_enabled = true
+updater_enabled = true
+crash_reporting_enabled = true
+backup_restore_enabled = true
+
+[roles]
+default_role = "member"
+allowed_roles = ["owner", "partner", "member", "child"]
+
+[[menus]]
+key = "dashboard"
+label = "Dashboard"
+href = "/dashboard"
+icon = "dashboard"
+description = "Player profiles, skill progress, age-appropriate recommendations"
+
+[[menus]]
+key = "coding"
+label = "Coding Academy"
+href = "/coding"
+icon = "code"
+description = "Block-based and text-based coding games, step interpreter and QuickJS-WASM"
+
+[[menus]]
+key = "english"
+label = "English"
+href = "/english"
+icon = "sparkles"
+description = "Pre-A1 to B1 common word mastery & Tech English career path"
+
+[[menus]]
+key = "games"
+label = "Games"
+href = "/games"
+icon = "cards"
+description = "Game library, age-group levels, streaks, leagues and badges"
+
+[[menus]]
+key = "mentor"
+label = "AI Mentor"
+href = "/mentor"
+icon = "form"
+description = "Guarded age-appropriate AI mentor, preset questions & privacy filters"
+
+[[menus]]
+key = "classroom"
+label = "Classroom"
+href = "/classroom"
+icon = "users"
+description = "Teacher dashboards, student assignment tracking and cross-device sync"
+
+[billing]
+enabled = true
+product_code = "CAGAMES"
+gcc_base_url = "https://gcc.fathforce.com"
+offline_days = 7
+refresh_hours = 6
+currencies = ["USD"]
+
+[[billing.public_keys]]
+kid = "gcc-2026-10"
+ed25519 = "Su0nese5LuWHeNPFIz69p0HGUsdT49rnEn82fbtY2S8="
