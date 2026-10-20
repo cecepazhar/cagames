@@ -27,12 +27,12 @@
 
   const projects: ProjectCard[] = [
     {
-      id: 'proj-caterm',
-      title: 'CATerm',
-      description: 'Sovereign SSH/SFTP terminal client with zero-knowledge encrypted vault and Hana AI.',
-      category: 'Terminal',
+      id: 'proj-cagames',
+      title: 'CAGames',
+      description: 'STEAM Coding & English learning games platform for all levels, TK to University.',
+      category: 'Games & Education',
       status: 'STABLE',
-      accent: '#ef4444',
+      accent: '#10b981',
       stars: 48,
       members: [{ name: 'Cecep' }, { name: 'Harun' }, { name: 'Fatih' }],
       totpCode: '492 108'

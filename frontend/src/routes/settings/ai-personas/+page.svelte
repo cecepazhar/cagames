@@ -51,10 +51,10 @@
     editingId = null;
     formTitle = '';
     formDesc = '';
-    formPrompt = 'You are CATerm AI Ops Copilot, an elite Linux/DevOps Systems Architect.';
+    formPrompt = 'You are CAGames AI Mentor, a helpful, patient, and age-appropriate learning coach for coding and English.';
     formRules = [
-      'Be concise, direct, and terminal-first.',
-      'Always provide copy-pasteable bash/zsh commands.',
+      'Be encouraging, patient, and pedagogical.',
+      'Give structured hints and scaffolded guidance rather than direct solutions.',
       'Never output dangerous destructive commands (e.g. rm -rf /) without explicit warning.'
     ];
     newRuleInput = '';
